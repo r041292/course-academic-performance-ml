@@ -4,7 +4,7 @@ Code for a master's thesis project that estimates, **at the start of the semeste
 
 For every course (subject), the project trains two models:
 
-- a **regression model** that estimates the student's **final grade** (0–5 scale; 3.0 is the passing mark);
+- a **regression model** that estimates the student's **final grade** (1.5–5.0 scale; 3.0 is the passing mark);
 - a **classification model** that estimates whether the student will **withdraw** from the course.
 
 The two predictions are combined into a single outcome per student and course: **pass**, **fail** or **withdraw**. These outcomes are aggregated by course and by course section to propose which courses and sections should receive tutoring support.
@@ -167,6 +167,6 @@ All results are written as CSV files (`;` separator, decimal comma) to `resultad
 
 ---
 
-## Data
+## Licence and data
 
-The code is shared for transparency. The underlying data belong to the university and are not distributed.
+The code is released under the [MIT License](LICENSE). The underlying data belong to the university and are not distributed.
