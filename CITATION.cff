@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Course-level prediction of academic performance: grades, withdrawal and tutoring allocation"
+type: software
+authors:
+  - family-names: "Velásquez"
+    given-names: "Rubiel"
+    affiliation: "Universidad del Norte, Barranquilla, Colombia"
+    orcid: "https://orcid.org/0009-0008-2576-5030"
+version: "1.0.0"
+date-released: "2026-11-16"
+license: MIT
+repository-code: "https://github.com/r041292/course-academic-performance-ml"
+keywords:
+  - academic performance
+  - machine learning
+  - learning analytics
+  - course-level models
+  - CatBoost
+  - SHAP

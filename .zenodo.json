@@ -1,0 +1,26 @@
+{
+  "title": "Course-level prediction of academic performance: grades, withdrawal and tutoring allocation",
+  "description": "<p>Code for a master's thesis project that estimates, at the start of the semester, each undergraduate student's final grade and probability of withdrawal in each enrolled course, using one model per course (Random Forest, XGBoost and CatBoost) with prerequisite-course results as predictors. Hyperparameters are tuned with Optuna inside a 5-fold cross-validation, and models are evaluated on a held-out academic term. The repository also includes the statistical comparison of algorithms (Friedman, Wilcoxon-Holm, bootstrap), a grade-distribution shift analysis (Kolmogorov-Smirnov and Wasserstein), SHAP interpretability and a tutoring allocation proposal by course and section.</p><p>The institutional dataset used to train the models is confidential and is not included; the code cannot be executed without it.</p>",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Velásquez, Rubiel",
+      "affiliation": "Universidad del Norte, Barranquilla, Colombia",
+      "orcid": "0009-0008-2576-5030"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "academic performance",
+    "machine learning",
+    "learning analytics",
+    "course-level models",
+    "prerequisites",
+    "CatBoost",
+    "XGBoost",
+    "random forest",
+    "Optuna",
+    "SHAP",
+    "higher education"
+  ]
+}
